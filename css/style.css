@@ -20,3 +20,10 @@
     height: 200px;
 }
 /* end stile header */
+/* stile main */
+#label {
+    margin-bottom: 20px;
+    /* debug */
+    height: 350px;
+    background-color: #e1d67a;
+}

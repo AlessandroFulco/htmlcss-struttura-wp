@@ -11,3 +11,12 @@
     height: 100vh;
     background-color: green;
 }
+/* end regole generali */
+/* stile header */
+#intestazione {
+    margin-bottom: 20px;
+    /* debug */
+    background-color: #e579e6;
+    height: 200px;
+}
+/* end stile header */

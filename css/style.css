@@ -11,19 +11,57 @@
     height: 100vh;
     background-color: green;
 }
+#intestazione, #label {
+    margin-bottom: 30px;
+}
 /* end regole generali */
 /* stile header */
 #intestazione {
-    margin-bottom: 20px;
     /* debug */
     background-color: #e579e6;
     height: 200px;
 }
 /* end stile header */
 /* stile main */
+/* prima sezione */
 #label {
+    /* debug */
+    height: 500px;
+    background-color: #e1d67a;
+}
+/* end prima sezione */
+/* seconda sezione */
+#info {
+    padding-bottom: 20px;
+    /* debug */
+    background-color: #0086ff;
+    /* height: 500px; */
+}
+#info::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#leadership {
     margin-bottom: 20px;
     /* debug */
+    background-color: #abcfe7;
+    height: 100px;
+}
+.col {
+    width: 20%;
+    float: left;
+    /* debug */
+    background-color: #abcfe7;
+    border: 1px solid black;
     height: 350px;
-    background-color: #e1d67a;
+}
+#main-content{
+    float: left;
+    width: 56%;
+    margin: 0 2%;
+    /* debug */
+    background-color: #abcfe7;
+    height: 350px;
+    border: 1px solid black;
 }

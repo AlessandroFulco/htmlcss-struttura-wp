@@ -7,9 +7,6 @@
 .container {
     width: 80%;
     margin: 20px auto;
-    /* debug */
-    height: 100vh;
-    background-color: green;
 }
 #intestazione, #label {
     margin-bottom: 30px;
@@ -53,7 +50,6 @@
     float: left;
     /* debug */
     background-color: #abcfe7;
-    border: 1px solid black;
     height: 350px;
 }
 #main-content{
@@ -63,5 +59,14 @@
     /* debug */
     background-color: #abcfe7;
     height: 350px;
-    border: 1px solid black;
 }
+/* end seconda sezione */
+/* end stile main */
+/* stile footer */
+footer {
+    margin-top: 10px;
+    /* debug */
+    background-color: #8801fe;
+    height: 50px;
+}
+/* end footer */
